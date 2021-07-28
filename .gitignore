@@ -1,0 +1,8 @@
+store-backend/.idea
+store-backend/node_modules
+store-backend/.env
+
+store-frontend/.idea
+store-frontend/node_modules
+
+/.idea
