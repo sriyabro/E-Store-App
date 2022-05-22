@@ -17,23 +17,28 @@
 
         .top-bar-btn {
             background-color: transparent;
-            color: $top-bar-btn-color;
+            color: $color-primary;
             border-radius: 5px;
         }
         .top-bar-btn:hover {
-            background-color: $top-bar-btn-color;
+            background-color: $color-primary;
             color: $font-light;
         }
 
         .border-btn {
-            border: 1px solid $top-bar-btn-color;
+            border: 1px solid $color-primary;
         }
     }
     .top-bar-item:hover {
-        color: $top-bar-btn-color;
+        color: $color-primary;
         
         a {
-            color: $top-bar-btn-color;
+            color: $color-primary;
+        }
+
+        .border-btn {
+            border: 1px solid $color-primary;
+            border-radius: 5px;
         }
     }
 }
