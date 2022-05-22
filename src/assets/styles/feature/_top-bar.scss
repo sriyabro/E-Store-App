@@ -6,6 +6,11 @@
         padding: .5rem;
         cursor: pointer;
 
+        a {
+            text-decoration: none;
+            color: $font-dark;
+        }
+
         .icon {
             margin-right: .5rem;
         }
@@ -13,11 +18,22 @@
         .top-bar-btn {
             background-color: transparent;
             color: $top-bar-btn-color;
+            border-radius: 5px;
+        }
+        .top-bar-btn:hover {
+            background-color: $top-bar-btn-color;
+            color: $font-light;
         }
 
         .border-btn {
             border: 1px solid $top-bar-btn-color;
-            border-radius: 5px;
+        }
+    }
+    .top-bar-item:hover {
+        color: $top-bar-btn-color;
+        
+        a {
+            color: $top-bar-btn-color;
         }
     }
 }
