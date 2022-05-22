@@ -1,0 +1,23 @@
+@import "./variables";
+
+.top-bar {
+    .top-bar-item {
+        margin: 0 .5rem;
+        padding: .5rem;
+        cursor: pointer;
+
+        .icon {
+            margin-right: .5rem;
+        }
+
+        .top-bar-btn {
+            background-color: transparent;
+            color: $top-bar-btn-color;
+        }
+
+        .border-btn {
+            border: 1px solid $top-bar-btn-color;
+            border-radius: 5px;
+        }
+    }
+}
