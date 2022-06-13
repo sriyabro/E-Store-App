@@ -1,0 +1,18 @@
+.categories-nav-bar {
+    .cat-drop-down {
+        background-color: transparent;
+        color: $font-dark;
+        border: 1px solid $color-primary;
+    }
+    .cat-drop-down:focus {
+        background-color: transparent;
+        color: $color-primary;
+    }
+
+    .cat-nav-item {
+        cursor: pointer;
+    }
+    .cat-nav-item:hover {
+        color: $color-primary;
+    }
+}
