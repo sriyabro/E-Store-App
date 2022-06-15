@@ -5,6 +5,8 @@
     font-size: 13px;
 }
 
+@import "./feature/scroll_bar";
 @import "./feature/top-bar";
 @import "./feature/logo-nav-bar";
 @import "./feature/categories-nav-bar";
+@import "./feature/search-bar";

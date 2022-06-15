@@ -1,0 +1,86 @@
+@import "./variables";
+
+.search-container {
+
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .search-bar {
+            border: 1px solid $color-grey-light;
+            border-radius: 1rem;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .search-icon {
+                color: $color-grey;
+            }
+
+            .search-input {
+                border: none;
+                width: 100%;
+
+                &:focus-visible {
+                    outline: none;
+                }
+            }
+
+            .close-icon {
+                color: $color-grey;
+                cursor: pointer;
+            }
+
+            &:hover {
+                border: 1px solid $color-primary;
+                box-shadow: 0 0 4px 1px $color-grey-light;
+            }
+
+        }
+    }
+
+    .search-results {
+        display: grid;
+        position: absolute;
+        z-index: 9999;
+        background-color: rgba(255, 255, 255, 0.5);
+        border: 1px solid $color-grey-light;
+        border-radius: .5rem;
+        max-height: 100px;
+        overflow: overlay;
+
+        .item {
+            cursor: pointer;
+
+            &:hover {
+                color: $color-primary;
+                background-color: $color-grey-light;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: $layout-breakpoint-md) {
+    .search-bar {
+        width: 30%;
+    }
+
+    .search-results {
+        width: 30%;
+        left: 35%;
+    }
+}
+
+@media only screen and (max-width: $layout-breakpoint-md) {
+    .search-bar {
+        width: 80%;
+    }
+
+    .search-results {
+        width: 80%;
+        left: 10%;
+    }
+}

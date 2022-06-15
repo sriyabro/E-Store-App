@@ -1,4 +1,15 @@
+$color-bg: #fff;
 $color-primary: #4caf50;
+$color-grey: #9aa0a6;
+$color-grey-light: #ced4da;
 
 $font-dark: #000;
 $font-light: #fff;
+
+
+// breakpoints
+$layout-breakpoint-sm: 576px;
+$layout-breakpoint-md: 768px;
+$layout-breakpoint-lg: 992px;
+$layout-breakpoint-xl: 1200px;
+$layout-breakpoint-xxl: 1400px;
