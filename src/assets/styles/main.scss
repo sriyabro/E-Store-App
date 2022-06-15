@@ -5,8 +5,9 @@
     font-size: 13px;
 }
 
-@import "./feature/scroll_bar";
-@import "./feature/top-bar";
-@import "./feature/logo-nav-bar";
-@import "./feature/categories-nav-bar";
-@import "./feature/search-bar";
+@import "./partials/scroll_bar";
+@import "./partials//top-bar";
+@import "./partials/cart-preview";
+@import "./partials//logo-nav-bar";
+@import "./partials//categories-nav-bar";
+@import "./partials//search-bar";
